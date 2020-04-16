@@ -9,3 +9,5 @@
   * Githubの登録  
 * 2020/4/16  
   * [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github)の実施  
+* 2020/4/17  
+  * https://lab.github.com/githubtraining/github-pages
