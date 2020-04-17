@@ -16,4 +16,5 @@
     * [X] [Discover GitHub Pages](https://www.youtube.com/user/GitHubGuides/videos)  
     * [X] [Communicating using Markdown](https://lab.github.com/githubtraining/communicating-using-markdown)  
     * [X] [GitHub Actions: Hello World](https://lab.github.com/githubtraining/github-actions:-hello-world) 
+    * [X] [Uploading your project to GitHub](https://lab.github.com/githubtraining/uploading-your-project-to-github)  
     * [ ] 
