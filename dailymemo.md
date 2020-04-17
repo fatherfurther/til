@@ -15,5 +15,5 @@
   * Training - [Ramp up on Git and GitHub](https://lab.github.com/githubtraining/paths/ramp-up-on-git-and-github)  
     * [X] [Discover GitHub Pages](https://www.youtube.com/user/GitHubGuides/videos)  
     * [X] [Communicating using Markdown](https://lab.github.com/githubtraining/communicating-using-markdown)  
-    * [ ]  
+    * [X] [GitHub Actions: Hello World](https://lab.github.com/githubtraining/github-actions:-hello-world) 
     * [ ] 
