@@ -17,4 +17,7 @@
     * [X] [Communicating using Markdown](https://lab.github.com/githubtraining/communicating-using-markdown)  
     * [X] [GitHub Actions: Hello World](https://lab.github.com/githubtraining/github-actions:-hello-world) 
     * [X] [Uploading your project to GitHub](https://lab.github.com/githubtraining/uploading-your-project-to-github)  
-    * [ ] 
+    * [X] [Reviewing pull requests](https://lab.github.com/githubtraining/reviewing-pull-requests)  
+    * [] [Create a release based workflow](https://lab.github.com/githubtraining/create-a-release-based-workflow)  
+    * []   
+    * [] 
