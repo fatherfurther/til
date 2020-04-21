@@ -18,6 +18,9 @@
     * [X] [GitHub Actions: Hello World](https://lab.github.com/githubtraining/github-actions:-hello-world) 
     * [X] [Uploading your project to GitHub](https://lab.github.com/githubtraining/uploading-your-project-to-github)  
     * [X] [Reviewing pull requests](https://lab.github.com/githubtraining/reviewing-pull-requests)  
-    * [] [Create a release based workflow](https://lab.github.com/githubtraining/create-a-release-based-workflow)  
-    * []   
-    * [] 
+
+* 2020/4/21  
+  * Training - [Ramp up on Git and GitHub](https://lab.github.com/githubtraining/paths/ramp-up-on-git-and-github)  
+    * [X] [Create a release based workflow](https://lab.github.com/githubtraining/create-a-release-based-workflow)  
+    * [X] [Securing your workflows](https://lab.github.com/githubtraining/securing-your-workflows)  
+  * Training - [Nodeビギナーズブック](https://www.nodebeginner.org/index-jp.html#javascript-and-nodejs) - ブロッキングとノンブロッキング
