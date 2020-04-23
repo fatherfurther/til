@@ -1,3 +1,4 @@
+**Learning history**  
 * 2020/4/13  
   * node.jsの再セットアップ  
   * node.jsによるMySQLのGRUD操作の実施  
@@ -26,4 +27,7 @@
 * 2020/4/22  
   * Training - [Nodeビギナーズブック](https://www.nodebeginner.org/index-jp.html#javascript-and-nodejs) - 最後まで  
   * Training - [Node.jsを始めてみよう](https://github.com/osamu38/node-express-curriculum/wiki/Node.jsを始めてみよう)  
-    * [スマートフォンと連動させてアラートを表示させてみよう](https://github.com/osamu38/node-express-curriculum/wiki/Node.jsを始めてみよう#スマートフォンと連動させてアラートを表示させてみよう)まで実施。詳細は[memo.md](https://github.com/fatherfurther/registration/blob/master/memo.md)参照
+    * [スマートフォンと連動させてアラートを表示させてみよう](https://github.com/osamu38/node-express-curriculum/wiki/Node.jsを始めてみよう#スマートフォンと連動させてアラートを表示させてみよう)まで実施。詳細は[memo.md](https://github.com/fatherfurther/registration/blob/master/memo.md)参照  
+* 2020/4/23  
+  * Training - [Node.jsを始めてみよう](https://github.com/osamu38/node-express-curriculum/wiki/Node.jsを始めてみよう)  
+    * [トップページからリンクさせよう](https://github.com/osamu38/node-express-curriculum/wiki/Node.jsで詳細ページを作ってみよう#トップページからリンクさせよう)まで実施。
