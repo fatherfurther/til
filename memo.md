@@ -10,7 +10,8 @@
     * [Node.jsでの開発効率をあげるための便利なmodule、nodemon](https://github.com/osamu38/node-express-curriculum/wiki/Node.jsとExpressの基本#nodejsでの開発効率をあげるための便利なmodulenodemon)  
     * [VSCode に必ず入れておきたい拡張機能](https://qiita.com/ucan-lab/items/e85931bf8276da43cc97?utm_source=Qiitaニュース&utm_campaign=87b4fad0d8-Qiita_newsletter_409_04_22_2020&utm_medium=email&utm_term=0_e44feaa081-87b4fad0d8-36034433)
 
-
+* JavaScript  
+  * [JavaScriptの便利すぎるショートハンド](https://www.webprofessional.jp/shorthand-javascript-techniques/)
 * npm  
   * [npm installしてあるパッケージの現状と最新のバージョン確認とアップデート方法](https://olein-design.com/blog/update-npm-package-with-npm-check-updates)  
 

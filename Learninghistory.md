@@ -31,3 +31,7 @@
 * 2020/4/23  
   * Training - [Node.jsを始めてみよう](https://github.com/osamu38/node-express-curriculum/wiki/Node.jsを始めてみよう)  
     * [トップページからリンクさせよう](https://github.com/osamu38/node-express-curriculum/wiki/Node.jsで詳細ページを作ってみよう#トップページからリンクさせよう)まで実施。
+* 2020/4/27  
+  * Training - [Node.jsを始めてみよう](https://github.com/osamu38/node-express-curriculum/wiki/Node.jsを始めてみよう)  
+    * [ログアウト機能を実装しよう](https://github.com/osamu38/node-express-curriculum/wiki/Node.jsで会員登録システムを導入しよう#ログアウト機能を実装しよう)まで実施。
+    
