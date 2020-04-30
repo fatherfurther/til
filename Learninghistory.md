@@ -34,4 +34,9 @@
 * 2020/4/27  
   * Training - [Node.jsを始めてみよう](https://github.com/osamu38/node-express-curriculum/wiki/Node.jsを始めてみよう)  
     * [ログアウト機能を実装しよう](https://github.com/osamu38/node-express-curriculum/wiki/Node.jsで会員登録システムを導入しよう#ログアウト機能を実装しよう)まで実施。
-    
+* 2020/4/28  
+  * Practice - Node-REDを利用し、Google homeへのメッセージ投稿サイトを作成（その１）  
+* 2020/4/29  
+  * Practice - Node-REDを利用し、Google homeへのメッセージ投稿サイトを作成（その２）  
+* 2020/4/30  
+  * Practice - Node-REDを利用し、Google homeへのメッセージ投稿サイトを作成（その３）  
