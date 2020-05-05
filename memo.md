@@ -11,7 +11,12 @@
     * [VSCode に必ず入れておきたい拡張機能](https://qiita.com/ucan-lab/items/e85931bf8276da43cc97?utm_source=Qiitaニュース&utm_campaign=87b4fad0d8-Qiita_newsletter_409_04_22_2020&utm_medium=email&utm_term=0_e44feaa081-87b4fad0d8-36034433)
 
 * JavaScript  
-  * [JavaScriptの便利すぎるショートハンド](https://www.webprofessional.jp/shorthand-javascript-techniques/)
+  * [JavaScriptの便利すぎるショートハンド](https://www.webprofessional.jp/shorthand-javascript-techniques/)  
+  * [無名関数とは](https://www.sejuku.net/blog/60321)  
+  * [アロー関数とは](https://qiita.com/may88seiji/items/4a49c7c78b55d75d693b)  
+  * [コールバック関数とは](https://sbfl.net/blog/2019/02/08/javascript-callback-func/)  
+  * [Promise](https://sbfl.net/blog/2016/07/13/simplifying-async-code-with-promise-and-async-await/)  
+  
 * npm  
   * [npm installしてあるパッケージの現状と最新のバージョン確認とアップデート方法](https://olein-design.com/blog/update-npm-package-with-npm-check-updates)  
 
@@ -22,3 +27,10 @@
                 Content here
 
             </details>  
+* git  
+  * git branch -a                     ： ブランチ一覧の表示  
+  * git branch -vv                    ： リモート追跡ブランチとの紐づけ確認
+  * git checkout -q [branch]          ： ブランチのチェックアウト  
+  * git branch --delete [branch]      ： ローカルブランチの削除  
+  * git push --delete origin [branch] ： リモートブランチの削除  
+  * git fetch --prune                 ： 削除されたブランチの同期？
