@@ -49,8 +49,6 @@
     [Andoroid端末上でNodo.jsアプリを実行してみた](https://news.livedoor.com/article/detail/17678346/)  
 * 2020/5/7~10  
   * AWS  
-* 2020/5/11  
-
 * 2020/5/12  
   * クイズページの改修。BGMの追加など。
 * 2020/5/13  
@@ -63,7 +61,29 @@
     * [スニペットの理解とカスタマイズ方法の習得](https://qiita.com/tomokin966/items/7731a6337670f5de2342#入力補完の候補を出すためのctrl--spaceすらめんどい)
       [VSCode で簡単にスニペットを追加できる拡張機能](https://www.pc-gear.com/post/vscode-snippet-generator/)
   * [Reactチュートリアルの学習](https://ja.reactjs.org/tutorial/tutorial.html)  
+    * [ゲーム勝者の判定](https://ja.reactjs.org/tutorial/tutorial.html#declaring-a-winner)まで実施。  
+* [2020/05/16]  
+  * [過去の着手の表示](https://ja.reactjs.org/tutorial/tutorial.html#showing-the-past-moves)まで実施。  
+* [2020/05/18]  
+  * AWS quiz.questionテーブルの再作成  
+  * Mysqlコマンド整理  
+  * CodeDeployによる自動デプロイ再設定&スナップショット作成  
+  * AWS EC2 インスタンスのWebコンソール起動設定  
+  * [Ubuntuにdockerをインストールする](https://qiita.com/tkyonezu/items/0f6da57eb2d823d2611d)  
+  * Ubuntuのdockerにcodimdをインストール＆アプリ初期設定  
+    * [Ubuntuにdockerをインストールする](https://qiita.com/tkyonezu/items/0f6da57eb2d823d2611d)  
+    * [docker-composeのインストール](https://qiita.com/mtsiga/items/f90a3b8edd3ab58de376)  
+    * [docker-composeコマンド逆引き](https://qiita.com/okyk/items/a374ddb3f853d1688820)  
+    * [Dockerを使ってHackmdio/codimdをインストール](https://www.bizchu.biz/codimd-hackmd-setup/#anker1)  
+    * [CodiMD機能紹介1](https://qiita.com/k-waragai/items/63cbab2584c0299288be) / [CodiMD機能紹介2](https://qiita.com/norinity1103/items/85aa990dbe6582b6d701)  
+    * [CodiMDの設定変更](https://qiita.com/k-waragai/items/63cbab2584c0299288be)  
+    * [CodiMD起動URL](http://ec2-18-181-192-88.ap-northeast-1.compute.amazonaws.com:3000/)  
+  * [ubuntu 18.04 時刻とタイムゾーン設定](https://qiita.com/zaki-lknr/items/cd9844fa6a1efa58cab1)  
+  * [Reactチュートリアルの学習](https://ja.reactjs.org/tutorial/tutorial.html)  
+    * 最後まで実施。内容理解、振り返り未実施  
+  * test-pagesアプリをAWSへ登録（deploy設定込み）  
 
-
-* [JavaScript 「再」入門](https://developer.mozilla.org/ja/docs/Web/JavaScript/A_re-introduction_to_JavaScript)  
-  * [ゲーム勝者の判定](https://ja.reactjs.org/tutorial/tutorial.html#declaring-a-winner)まで実施。
+**今後実施**  
+  * [JavaScript 「再」入門](https://developer.mozilla.org/ja/docs/Web/JavaScript/A_re-introduction_to_JavaScript)  
+  * CodiMD機能理解  
+  * react-nativeおためし

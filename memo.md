@@ -46,6 +46,9 @@
       1. masterを、リモート追跡のmasterに強制的に合わせる
         $ git reset --hard origin/master
 
+#### VSCode  
+  * 設定の同期-[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)  
+  
 
 #### Express  
   * 開始手順  
@@ -70,6 +73,18 @@
     * service mysql stop  
     * service mysql restart  
     * service mysql status  
+  * [MySQLコマンドまとめ](https://qiita.com/merrill/items/967884c02e10bd8f32f5)  
+    * ログイン  
+      $ mysql -uroot # root でログイン  
+    * 使用するデータベースを選択  
+      $ use db_name  
+    * データベース、テーブル一覧を表示  
+      $ show databases;  
+      $ show tables;  
+    * データベース削除  
+      $ drop database db_name;  
+    * [MySQL 特定のテーブルのバックアップとリカバリー](https://www.kakiro-web.com/memo/mysql-database-backup-recovery-table.html)  
+      バックアップ・リカバリー及び他サーバへのコピー  
   * [MySQL で特定の IP アドレスからのアクセスを許可する](https://qiita.com/u-dai/items/b360a337b5001778699e)  
   * [外部接続可能なユーザの作成](https://qiita.com/yoshiokaCB/items/df4ae185be7cbc4f03ac)
 
