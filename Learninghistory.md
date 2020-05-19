@@ -82,8 +82,12 @@
   * [Reactチュートリアルの学習](https://ja.reactjs.org/tutorial/tutorial.html)  
     * 最後まで実施。内容理解、振り返り未実施  
   * test-pagesアプリをAWSへ登録（deploy設定込み）  
+* [2020/05/19]  
+  * [Reactチュートリアルの学習](https://ja.reactjs.org/tutorial/tutorial.html)内容理解  
+  * [Getting Started – React](https://ja.reactjs.org/docs/getting-started.html)：[フォーム – React](https://ja.reactjs.org/docs/forms.html)まで実施
 
 **今後実施**  
   * [JavaScript 「再」入門](https://developer.mozilla.org/ja/docs/Web/JavaScript/A_re-introduction_to_JavaScript)  
   * CodiMD機能理解  
   * react-nativeおためし
+  * [CodePenの使い方(知らない人向け) - Qiita](https://qiita.com/fumu238/items/f73274aa1a188eb15794)

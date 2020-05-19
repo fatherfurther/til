@@ -48,6 +48,9 @@
 
 #### VSCode  
   * 設定の同期-[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)  
+  * [VS Code 1.27 の新機能 - 自動閉じ括弧、自動括弧囲い機能の設定追加 - Qiita](https://qiita.com/12345/items/f10cca3cbfe4ba2f05f8)  
+  * [VS Code の便利なショートカットキー - Qiita](https://qiita.com/12345/items/64f4372fbca041e949d0)  
+  
   
 
 #### Express  
