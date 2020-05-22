@@ -84,10 +84,21 @@
   * test-pagesアプリをAWSへ登録（deploy設定込み）  
 * [2020/05/19]  
   * [Reactチュートリアルの学習](https://ja.reactjs.org/tutorial/tutorial.html)内容理解  
-  * [Getting Started – React](https://ja.reactjs.org/docs/getting-started.html)：[フォーム – React](https://ja.reactjs.org/docs/forms.html)まで実施
-
+  * [Getting Started – React](https://ja.reactjs.org/docs/getting-started.html)：[フォーム – React](https://ja.reactjs.org/docs/forms.html)まで実施  
+* [2020/05/21]  
+  * [仕事ですぐに使えるTypeScript](https://future-architect.github.io/typescript-guide/typescript-guide.pdf)
+* [2020/05/22]  
+  * [超TypeScript入門完全パック(2020)- TypeScriptでアプリを作りたい方必見！ - YouTube](https://www.youtube.com/watch?v=F9vzRz6jyRk&t=5323s)
+  * [TypeScriptに取り組み始めたときに参考にしたリンク5選 💻｜君塚史高｜note](https://note.com/kimmy/n/nceb7cede6690)  
+* [2020/05/23]  
+  * node-quizのTS化
+  
 **今後実施**  
   * [JavaScript 「再」入門](https://developer.mozilla.org/ja/docs/Web/JavaScript/A_re-introduction_to_JavaScript)  
   * CodiMD機能理解  
   * react-nativeおためし
-  * [CodePenの使い方(知らない人向け) - Qiita](https://qiita.com/fumu238/items/f73274aa1a188eb15794)
+  * [CodePenの使い方(知らない人向け) - Qiita](https://qiita.com/fumu238/items/f73274aa1a188eb15794)  
+  * [Docker を使用して、CentOS 7にdrawio コンテナを起動する - Qiita](https://qiita.com/GENO/items/c5b3e2083029d3c60549)  
+
+  * [30分間React入門「いいねボタン」作成チュートリアル | | Craftsman Software Inc.](http://c16e.com/1510161700/)  
+  * [takepo/react-todo-app-sample: スライド資料→](https://github.com/takepo/react-todo-app-sample)
