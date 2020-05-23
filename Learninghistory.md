@@ -85,6 +85,9 @@
 * [2020/05/19]  
   * [Reactチュートリアルの学習](https://ja.reactjs.org/tutorial/tutorial.html)内容理解  
   * [Getting Started – React](https://ja.reactjs.org/docs/getting-started.html)：[フォーム – React](https://ja.reactjs.org/docs/forms.html)まで実施  
+* [2020/05/20]  
+  * [30分間React入門「いいねボタン」作成チュートリアル | | Craftsman Software Inc.](http://c16e.com/1510161700/)  
+    * Babel,webpack,Reactjsを利用した開発  
 * [2020/05/21]  
   * [仕事ですぐに使えるTypeScript](https://future-architect.github.io/typescript-guide/typescript-guide.pdf)
 * [2020/05/22]  
@@ -101,4 +104,5 @@
   * [Docker を使用して、CentOS 7にdrawio コンテナを起動する - Qiita](https://qiita.com/GENO/items/c5b3e2083029d3c60549)  
 
   * [30分間React入門「いいねボタン」作成チュートリアル | | Craftsman Software Inc.](http://c16e.com/1510161700/)  
-  * [takepo/react-todo-app-sample: スライド資料→](https://github.com/takepo/react-todo-app-sample)
+  * [takepo/react-todo-app-sample: スライド資料→](https://github.com/takepo/react-todo-app-sample)  
+  * [React基礎 · GitBook](http://basic-react.axlight.com/html/)
