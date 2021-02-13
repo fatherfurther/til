@@ -19,7 +19,7 @@ sleep 10
 
 ARCH=$(uname -m)
 
-IP_ADDRESS=$(hostname - | awk '{ print $1 }')
+IP_ADDRESS=$(hostname - i | awk '{ print $1 }')
 
 BINARY_DOCKER=/usr/bin/docker
 
