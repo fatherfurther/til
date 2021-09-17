@@ -94,7 +94,87 @@
   * [超TypeScript入門完全パック(2020)- TypeScriptでアプリを作りたい方必見！ - YouTube](https://www.youtube.com/watch?v=F9vzRz6jyRk&t=5323s)
   * [TypeScriptに取り組み始めたときに参考にしたリンク5選 💻｜君塚史高｜note](https://note.com/kimmy/n/nceb7cede6690)  
 * [2020/05/23]  
-  * node-quizのTS化
+  * node-quizのTS化  
+
+  [2020/12/01]  
+  * Figmaを利用したデザイン設計  [Figma ✕ React Storybook で作るプロトタイピング & スタイルガイド](https://qiita.com/stranger1989/items/65d6ed0668ac717917a2)  
+  
+* [2021/01/28]
+  * [Install Home Assistant (HASS) on Android (NO ROOT)](https://lucacesarano.medium.com/install-home-assistant-hass-on-android-no-root-fb65b2341126)  
+    * ×`pip install PyNaCl==1.3.0`→〇`pip install pynacl==1.3.0` ※[参考](https://pypi.org/project/PyNaCl/)  
+    * `unable to install package pillow==7.2.0`となっている  
+    →[How to install Pillow on termux? [closed]](https://stackoverflow.com/questions/62956054/how-to-install-pillow-on-termux)試してみる
+* [2021/02/12]  
+  * Install Ubuntu on Termux 
+    * [Android でもとりあえず Ubuntu のデスクトップ環境を使いたい（Termux 版）](https://qiita.com/tacchi/items/a532aafd9c05fdf7be45#%E7%92%B0%E5%A2%83%E3%81%AE%E8%A8%AD%E5%AE%9A)  
+    * [GitHub - MFDGaming/ubuntu-in-termux](https://github.com/MFDGaming/ubuntu-in-termux)  
+  * Install Hass.io on Ubuntu  
+    * [スマートホームを実現する「Home Assistant」 〜Google HomeやAmazon Echoとの連携も | web net FORCE](https://webnetforce.net/post-934/)  
+      * dbus-daemonのインストールに失敗するので、外してみる  
+      * dockerコマンドが効かないので、[linux - dockerのコマンドが見つからない - スタック・オーバーフロー](https://ja.stackoverflow.com/questions/66452/dockerのコマンドが見つからない)を参考に、以下コマンドでdocker.ioをインストールしてみる。  
+        * `apt-get install -y docker.io`  
+    →***結局dockerが正常に動作せず断念***
+
+  * Install OpenSSH in Termux  
+    * 以下3サイトの情報を参考に実施  
+      1 [Termux on AndroidのSSHサーバに接続する方法 | LFI](https://linuxfan.info/termux-sshd)  
+      2 [Windows環境からAndroidにTeraTermでSSH接続 - etsuxのブログ](http://etsux.hatenablog.com/entry/2019/05/06/201642)  
+      3 [Android でもとりあえず Ubuntu のデスクトップ環境を使いたい（Termux 版） - Qiita](https://qiita.com/tacchi/items/a532aafd9c05fdf7be45#環境の設定)  
+      ※手順は1参照。秘密鍵の生成は2を参照。Termux→android→pcのファイル受け渡しは3を参照。  
+      ※To start OpenSSH  
+       `sshd`  
+      stop `sshd`, just kill it's process:  
+       `pkill sshd`  
+* [2021/02/19]  
+  * ***ドメインの取得～Node-redのSSL化まで***  
+  * ドメインの取得  
+    * [無料のドメインを取得する - Qiita](https://qiita.com/teekay/items/135dc67e39f24997019e)  
+  * DNSの登録  
+    * [【Freenom】取得したドメインのDNS設定～Aレコードの登録手順～ | ぴぐろぐ](https://pig-log.com/freenom-add-record/)  
+    →Freenomでドメインを取得し、グローバルIPをAレコードに設定  
+  * SSLの秘密鍵、証明書の作成(nginxの設定含む)  ※後ほど他の手順に変更  
+    * [Termuxでのスマホサーバ、SSLアクセスでも耐えれそうかな？ – JunkHack](https://junkhack.gpl.jp/2020/09/10/termuxでのスマホサーバ、sslアクセスでも耐えれそうか/#suteppu7_nginxno_she_ding)  
+    →このサイトの手順でSSLの秘密鍵(Key)と証明書(crt)を作成  
+     手順の過程で`nginx`を利用するため、以下のサイトを参考にTermux状にnginxを構築。上記サイト内の`/data/data/com.termux/files/home/【WEBROOT】`は、`nginx.conf`のlocation - rootに記載されているパス``/data/data/com.termux/files/usr/share/nginx/html/`をさしている。  
+    * [Androidスマホ・タブレットは何でもできる！Termuxで動かすアレコレまとめ - Qiita](https://qiita.com/CyberRex/items/78a5ec91e7066eb0f3fb)  
+  * node-redのSSL化  
+    * [セキュリティ : Node-RED日本ユーザ会](https://nodered.jp/docs/user-guide/runtime/securing-node-red)  
+    ※node-redはpem形式なので、Key、crtの拡張子をpemに変更し、`/data/data/com.termux/files/home/.node-red`に移動。  
+    参考：[ssl — .keyファイルと.crtファイルから.pemファイルを入手する方法？](https://www.it-swarm.jp.net/ja/ssl/keyファイルとcrtファイルからpemファイルを入手する方法？/957695838/)  
+  * ルーターのポート転送の設定  
+    * 外部ポート443でグローバルIPにアクセスした場合、内部ポート1880(node-redのポート)に転送するようにする  
+    * [SSL Server Test (Powered by Qualys SSL Labs)](https://www.ssllabs.com/ssltest/)で「https://ドメイン名」をチェック。正しくSSLされていることを確認  
+  * Node-redの認証設定  
+    * [セキュリティ : Node-RED日本ユーザ会](https://nodered.jp/docs/user-guide/runtime/securing-node-red)  
+    * [node-red-auth-github - npm](https://www.npmjs.com/package/node-red-auth-github)  
+    →Githubアプリ設定の`callback URL`は`http://サーバ:ポート/auth/strategy/callback`を設定する。  
+  * SSLの秘密鍵、証明書の作成  
+    * [Amazon Linux 1 に acme.sh (HTTP-01 challenge)で Let's Encrypt を入れる - Qiita](https://qiita.com/tonishy/items/7541815c01f8f61f73cb#acmesh-を使って-lets-encrypt-sslサーバ証明書をインストールする)  
+    * [Raspberry PiとNode-redで、リビングに飾れる美しい「スマートホームコントローラ」を作ってみた | 育児×家事×IoT](https://dream-soft.mydns.jp/blog/developper/smarthome/2020/05/1246/)  
+    →Node-redの静的Webサーバーを有効にし、Nginx の変わりにNode-redのWebサーバー上でacme.shによる証明書のインストール&自動更新設定を行う。
+      * 静的Webサーバのパス  
+        →参考サイトでは`httpStatic: '/root/node-red-static/'`となっているが、権限で怒られるので`/data/data/com.termux/files/usr/share/node-red-static`に変更  
+      * 証明書のインストール  
+        →`/data/data/com.termux/files/home/.node-red/`にインストール。key、crt共に拡張子をpemで指定（node-redの仕様に合わせる）。  
+         インストール後にnode-redの再起動を行う。pm2管理なので、`pm2 restart`をコマンドとして登録。以下が実行コマンド。  
+          ```
+          ./acme.sh --install-cert -d example.com --key-file /data/data/com.termux/files/home/.node-red/example.com.pem --fullchain-file /data/data/com.termux/files/home/.node-red/fullchain.pem --reloadcmd "pm2 restart node-red"
+          ```
+* [2021/02/20]  
+  * Nodeアプリの自動起動設定  
+    * [Startup scripts : termux](https://www.reddit.com/r/termux/comments/atarap/startup_scripts/)  
+    →`pm2`で各アプリを自動実行するよう、`startapps.sh`を作成。  
+    →Termuxのターミナル起動時に実行される`~/.bashrc`に`startapps.sh`の起動処理を追記  
+    
+  
+    
+
+
+
+
+   
+
+
   
 **今後実施**  
   * [JavaScript 「再」入門](https://developer.mozilla.org/ja/docs/Web/JavaScript/A_re-introduction_to_JavaScript)  
