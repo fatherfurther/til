@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  n8n:
+    image: n8nio/n8n
+    restart: always
+    ports:
+      - 5678:5678
+    environment:
+      N8N_BASIC_AUTH_ACTIVE: "true"
+      N8N_BASIC_AUTH_USER: ubuntu
+      N8N_BASIC_AUTH_PASSWORD: 19mkSE83@
+    volumes:
+      - ~/.n8n:/root/.n8n
+    command: /bin/sh -c "n8n start"
