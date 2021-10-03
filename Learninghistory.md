@@ -167,16 +167,14 @@
     →Termuxのターミナル起動時に実行される`~/.bashrc`に`startapps.sh`の起動処理を追記  
     
   
+* [2021/10/3]
+  * Cerbotをインストールし、webrootで証明書を作成する  
+    * [Let’s Encryptの使い方。standaloneとwebroot - Qiita](https://qiita.com/f_uto/items/4178a9fdd657b78672ea)  
+    * `sudo certbot certonly --webroot -w /home/node-red-static -d fatherfurther.tk`  
+    * `/etc/letsencrypt/live/fatherfurther.tk/`に証明書が作成される  
 * Certbotコマンドの自動化  
   * [certbot(Letsecnrypt)コマンド・オプションを真面目に理解する](https://qiita.com/s-katsumata/items/629222b24113d7a49b79)を参考に、Certbotコマンド実行前後のサービス停止・起動、証明書コピーの処理をコマンドオプションで実行  
-* [【CentOS7】Lets EncryptでSSL証明書を取得](https://www.server-memo.net/tips/lets-encrypt.html)を参考に、自動更新スクリプトを作成  
-  →/home/pi/.node-red/UpdateSSLCert.sh  
-* [ラズベリーパイでCronを使って定期処理を行う方法、ハマりポイントやCronが動かない場合の対処方法など](https://k99-tech.com/blog/archives/1141#Cron)を参考に、自動更新スクリプトをCronで自動実行するように設定  
-* n8nをインストール  
-  * [N8n Installation Script for Raspberry Pi (n8n-pi) - Docs &amp; Tutorials - n8n](https://community.n8n.io/t/n8n-installation-script-for-raspberry-pi-n8n-pi/1392)  
-
-[serverあれこれ: Raspberry Pi(Raspbian Buster)/Debian 10(Buster)にn8n.ioをインストールする](https://serverarekore.blogspot.com/2020/04/raspberry-piraspbian-busterdebian_19.html)
-
+  * `sudo certbot renew --dry-run --pre-hook "pm2 stop node-red" --post-hook 'sh -c "/home/masao/.node-red/certcopy.sh ; pm2 start node-red"'
 
 
 
