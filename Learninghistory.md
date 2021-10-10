@@ -173,10 +173,10 @@
     * `sudo certbot certonly --webroot -w /home/node-red-static -d fatherfurther.tk`  
     * `/etc/letsencrypt/live/fatherfurther.tk/`に証明書が作成される  
 * Certbotコマンドの自動化  
-  * [certbot(Letsecnrypt)コマンド・オプションを真面目に理解する](https://qiita.com/s-katsumata/items/629222b24113d7a49b79)を参考に、Certbotコマンド実行前後のサービス停止・起動、証明書コピーの処理をコマンドオプションで実行  
-  * `sudo certbot renew --dry-run --pre-hook "pm2 stop node-red" --post-hook 'sh -c "/home/masao/.node-red/certcopy.sh ; pm2 start node-red"'
-
-
+  * [certbot(Letsecnrypt)コマンド・オプションを真面目に理解する](https://qiita.com/s-katsumata/items/629222b24113d7a49b79)を参考に、Certbotコマンド実行前後のサービス停止・起動、証明書コピーの処理をコマンドオプションで実行するコマンド分を作成  
+  * `sudo certbot renew --dry-run --pre-hook "pm2 stop node-red" --post-hook 'sh -c "/home/masao/.node-red/certcopy.sh ; pm2 start node-red"'  
+  * 上記コマンドを[Cronの使い方とテクニックと詰まったところ - Qiita](https://qiita.com/UNILORN/items/a1a3f62409cdb4256219)を参考にcronに設定。  
+    cronファイルは`/etc/cron.d/test_masao`として作成。  
 
    
 
