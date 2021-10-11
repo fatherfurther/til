@@ -178,9 +178,14 @@
 * [2021/10/10]  
   * 上記コマンドを[Cronの使い方とテクニックと詰まったところ - Qiita](https://qiita.com/UNILORN/items/a1a3f62409cdb4256219)を参考にcronに設定。  
     cronファイルは`/etc/cron.d/test_masao`として作成。  
+  * n8nのインストール  
+    * [第607回 n8nでWebサービスを繋いだワークフローを自動化する：Ubuntu Weekly Recipe｜gihyo.jp … 技術評論社](https://gihyo.jp/admin/serial/01/ubuntu-recipe/0607)を参考にdockerでn8nをインストール  
+   `docker run --rm -it --name n8n -p 5678:5678 -v /home/.n8n/:/root/.n8n n8nio/n8n`でn8nが実行されたが、自動起動設定等未実施
 
-   
-
+* [2021/10/12]  
+  * n8nのインストールやり直し  
+     * docker-composeをapt-getでインストール  
+     * [サヨナラIFTTT。こんにちわn8n。 │ おとファミブログ](https://otofami.games/archives/180)を参考にdocker-compose.ymlを作成し、n8nを起動。n8n.serviceも作成し、自動起動化  
 
   
 **今後実施**  
