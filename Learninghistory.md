@@ -186,7 +186,12 @@
   * n8nのインストールやり直し  
      * docker-composeをapt-getでインストール  
      * [サヨナラIFTTT。こんにちわn8n。 │ おとファミブログ](https://otofami.games/archives/180)を参考にdocker-compose.ymlを作成し、n8nを起動。n8n.serviceも作成し、自動起動化  
-
+     * 
+* [2021/11/19]  
+  [Docker+Traefikでリバースプロキシの構築 | mahori ブログ](https://mahori.jp/2021/08/23/traefik-common/)  
+  [FastAPI、Docker、Traefikを使用してセキュアAPIをデプロイする方法](https://ichi.pro/fastapi-docker-traefik-o-shiyoshite-sekyua-api-o-depuroi-suru-hoho-195481248141327)  
+  [Server Setup | Docs](https://docs.n8n.io/getting-started/installation/advanced/server-setup.html#docker-compose-example)  
+  
   
 **今後実施**  
   * [JavaScript 「再」入門](https://developer.mozilla.org/ja/docs/Web/JavaScript/A_re-introduction_to_JavaScript)  
